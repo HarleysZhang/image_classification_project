@@ -1,5 +1,9 @@
 # image_classification_project
-kaggle图像分类比赛项目，提供了项目bsaeline
+kaggle图像分类比赛项目，提供了项目bsaeline.
+## Usage
+1. git clone https://github.com/HarleysZhang/image_classification_project.git
+2. Configure the environment and change data drectory into my data directory form
+3. `Python the main.py`
 ## data direcrory
 ```Shell
 ├── dataset
@@ -238,7 +242,3 @@ class CancerDataset(Sequence):
             return os.path.join(TEST, id + '.tif')
         return id
 ```
-## Usage
-1. git clone https://github.com/HarleysZhang/image_classification_project.git
-2. Configure the environment and change data drectory into my data directory form
-3. `Python the main.py`
