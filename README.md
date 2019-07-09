@@ -1,0 +1,2 @@
+# image_classification_project
+kaggle图像分类比赛项目，提供了项目bsaeline
