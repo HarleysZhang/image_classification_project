@@ -239,6 +239,6 @@ class CancerDataset(Sequence):
         return id
 ```
 ## Usage
-1. git clone 
+1. git clone https://github.com/HarleysZhang/image_classification_project.git
 2. Configure the environment and change data drectory into my data directory form
 3. `Python the main.py`
