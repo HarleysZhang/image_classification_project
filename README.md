@@ -242,3 +242,5 @@ class CancerDataset(Sequence):
             return os.path.join(TEST, id + '.tif')
         return id
 ```
+## Reference
+[imgaug学习笔记](https://blog.csdn.net/u012897374/article/details/80142744)
