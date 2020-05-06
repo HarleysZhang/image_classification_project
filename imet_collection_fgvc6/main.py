@@ -179,7 +179,9 @@ class ArtworkDataset(Sequence):
         return len(self.data) // self.batch_size
 
     def __getitem__(self, index):
-        """Gets batch at position `index`.
+        """Generate each batch of training data at position `index`
+         : param index: batch index
+         : return: training images and labels
         """
         assert self.target_size[2] == 3
         start = self.batch_size * index
